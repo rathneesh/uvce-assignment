@@ -1,18 +1,18 @@
 ### Assignment1: 
-Modify the following flask application to use mysql db instead of postgres data base
+Modify the following flask application to use mysql db instead of postgres db
  
  [Hackfest App](https://github.com/rathneesh/hackfest)
  
 ### Assignment2:
 
-Create a docker-compose yaml for the following Multi-contianer app(drupal postgres)
+Create a Docker-compose yaml for the following Multi-container app (Drupal postgres)
 
-contianer1(front-end)
+contianer1 (front-end)
 
 
-front-end image - drupal:8-apache
+Front-end image - drupal:8-apache
 
-container port - 80
+Container port - 80
 
 volumes 
         - /var/www/html/modules
@@ -25,7 +25,7 @@ volumes
 
 contianer2(database)
 
-back-end image - postgre:10
+Back-end image - postgre:10
 
 environment variable -  POSTGRES_PASSWORD: example
 
