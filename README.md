@@ -57,25 +57,3 @@ Connect to MySQL database using the properties specified in ```docker-compose.ym
 2. The port to be used is ```32000``` which is the port on which app is running on localhost. Don't use ```3306``` as port to connect from the client as it's the port where container is running.
 
 Once connected, run simple commands like ```show tables``` or ```desc <<tablename>>``` to make sure table is created with exact fields specified in the Flask models.
-
-## Running the tests
-
-## Deployment
-
-## Built With
-
-* [Docker](http://www.dropwizard.io/1.0.2/docs/) -  Deployment model
-* [Flask](https://maven.apache.org/) - The web framework
-* [Python](https://rometools.github.io/rome/) - programming language
-* [pip](https://rometools.github.io/rome/) - Package and dependency manager
-* [MySQL](https://rometools.github.io/rome/) - Database
-
-## Contributing
-
-## Versioning
-
-## Authors
-
-## License
-
-## Acknowledgments
