@@ -1,9 +1,9 @@
-### H3 Assignment1: 
+### Assignment1: 
 Modify the following flask application to use mysql db instead of postgres data base
  
  [Hackfest App](https://github.com/rathneesh/hackfest)
  
-### H3 Assignment2:
+### Assignment2:
 
 Create a docker-compose yaml for the following Multi-contianer app(drupal postgres)
 
@@ -22,7 +22,7 @@ environment variable -  POSTGRES_PASSWORD: example
 
 Note: Bring up both the containers on same user defined bridge network
 
-### H3 Assignment3:
+### Assignment3:
 wordpress - mysql app
 contianer1(mysql)
    image: mysql:5.7
@@ -46,6 +46,6 @@ Note: Bring up the application on an user defined bridge network
 
 Create a docker-compose file to bring up the application
 
-### H3 Assignment4:
+### Assignment4:
 text here
 
