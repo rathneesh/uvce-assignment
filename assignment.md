@@ -25,7 +25,7 @@ volumes
 
 contianer2(database)
 
-Back-end image - postgre:10
+Back-end image - postgres:10
 
 environment variable -  POSTGRES_PASSWORD: example
 
